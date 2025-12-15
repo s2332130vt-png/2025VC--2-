@@ -506,4 +506,11 @@ section::before,section::after {
         text-align: left;
         margin-top: 30px;
     }
+    #header,
+    .parallax {
+        background-attachment: scroll; /* fixed を無効化 */
+    }
+	#header {
+		min-height: 100vh; 
+	}
 }
